@@ -2,6 +2,10 @@
 /* CSS Document */
 
 body {
+	background-image: url("../img/fondo.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover; 
 	background-color: beige;
 	margin: 0px;
 	pading: 0px;
@@ -11,25 +15,30 @@ body {
 /** Estilos del Head **/
 
 .contenedorheader {
-	background-color: aqua;
+/**	background-image: url("../img/fondo.jpg");
+	background-position:top;
+	background-repeat: no-repeat;
+	background-size: cover; **/
+
 	padding: 20px;
 }
 
 .logo {
-	background-color: blueviolet;
 	float: left;
 }
 
 .redesfacebook{
-	background-color: brown;
 	float: right;
 	margin: 10px;
 }
 
 .redesinstagram{
-	background-color: cadetblue;
 	float: right;
 	margin: 10px;
+}
+
+.titulo {
+	margin: 250px 0 250px 0;
 }
 
 .limpiar {
@@ -38,40 +47,116 @@ body {
 
 /**eSTILOS CONTENIDO **/
 
-.contenido {
-	background-color: darkblue;
-}
+/**.contenido {
+	background-image: url("../img/fondo.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size:cover;
+}    **/
 
 .contenido1 {
-	background-color: coral;
+	color: #FDFFE9;
+	background-color: hsla(0,0%,0%,0.18);
 	float: left;
-	width: 40%;
-	margin: 1000px 0px 0px 25px;
+	width: 50%;
+	margin: 600px 0px 10px 25px;
+	font-size: 18px;
+	line-height: 150%;
+	padding: 30px;
 }
 
 .contenido2 {
-	background-color: cornflowerblue;
+	color: #FDFFE9;
+	background-color: hsla(0,0%,0%,0.18);
 	float: right;
-	width: 40%;
-	margin: 400px 25px 300px 0;
+	width: 50%;
+	margin: 300px 25px 100px 0;
+	font-size: 18px;
+	line-height: 150%;
+	padding: 30px;
+
 }
+
+.contenido2 a {
+	color: coral;
+	text-decoration: none;
+	
+}
+
+/** Links **/
+
+.mas {
+	background-color: #FFF6DC;
+	width: 100%;
+	padding: 40px 0 0 0;
+	height: auto;
+	text-decoration: none;
+	text-align: center;
+	
+	
+}
+
+.titulomas {
+	
+	color: #121111;
+	width: 100%;
+	text-align: center;
+
+	
+}
+
+.link1 {
+	color: #121111;
+	width: 30%;
+	margin: 20px 30px 5px 30px;
+	padding: 20px;
+	float: left;
+	text-decoration: none;
+}
+
+.link2 {
+	color: #121111;
+	width: 30%;
+	margin: 20px 30px 5px 30px;
+	padding: 20px;
+	float:right;
+	text-decoration: none;
+}
+
+.link1 a {
+	color: coral;
+	text-decoration: none;
+}
+
+.link2 a {
+	color: coral;
+	text-decoration: none;
+}
+
+
 
 /** ESTILOS DEL FOOTER **/
 
+.footer {
+	margin: 200px 0 0 0;
+}
+
 .contenidofooter {
-	color: #ffffff;
-	background-color: darkcyan;
+	color: #000000;
+	background-color: hsla(11,93%,72%,0.96);
 	text-align: center;
 	text-decoration: none;
-	padding: 30px;
+	padding: 15px;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+	
 }
 
 .contenidofooter a {
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
+	
 }
 
 
